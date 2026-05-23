@@ -67,7 +67,7 @@
                         </Record>
                     </Collection>
                 </Annotation>
-<!--                 <Annotation Term="UI.LineItem">
+                 <!-- <Annotation Term="UI.LineItem">
                     <Collection>
                         <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="TravelId"/>
