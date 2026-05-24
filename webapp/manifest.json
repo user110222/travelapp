@@ -120,11 +120,28 @@
                   }
                 }
               },
+              "views": {
+                "paths": [
+                  {
+                    "key": "t_all",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#sv_all"
+                  },
+                  {
+                    "key": "t_open",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#spv_open"
+                  },
+                  {
+                    "key": "t_accepted",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#spv_accepted"
+                  }
+                ],
+                "showCounts": false
+              },
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
                     "type": "ResponsiveTable",
-                    "quickVariantSelection": {
+                    "quickVariantSelection1": {
                       "paths": [
                         {
                           "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#all"
