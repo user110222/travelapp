@@ -133,6 +133,11 @@
                   {
                     "key": "t_accepted",
                     "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#spv_accepted"
+                  },
+                  {
+                    "key": "t_totals",
+                    "entitySet": "TravelTotals",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#sv_all"
                   }
                 ],
                 "showCounts": false
